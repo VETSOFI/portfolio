@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Orbitron:wght@400&display=swap');
+
+body {
+    font-family: 'Press Start 2P', sans-serif;
+    background-color: #f8b146;
+    color: #ec5858;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #66d4f0;
+    text-align: center;
+    padding: 20px;
+    font-family: 'Orbitron', sans-serif;
+    animation: fadeIn 2s ease-in-out;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 15px;
+    font-size: 18px;
+    transition: color 0.3s ease-in-out;
+}
+
+nav a:hover {
+    color: #00ff99;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+.project-card {
+    background-color: #f188ec;
+    padding: 15px;
+    border-radius: 8px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.project-card:hover {
+    transform: scale(1.05);
+}
+
